@@ -11,8 +11,8 @@ collections:
   - name: "barbers"
     label: "Barbers"
     files: 
-      label: "Barbers List"
-      name: "Barbers-list"
-      file: "site/settings/barbers.json"
-      fields:
-        { label: "Name", name: "barber-name", widget: "string"}
+      - label: "Barbers List"
+        name: "Barbers-list"
+        file: site/settings/barbers.json"
+        fields:
+          { label: "Name", name: "barber-name", widget: "string"}
