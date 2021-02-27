@@ -15,8 +15,10 @@ collections:
         name: "Barbers-list"
         file: site/settings/barbers.json
         fields:
-          - { label: "Name", name: "barber-name", widget: "string" }
-          - { label: "Photo", name: "barber-photo", widget: "image"}
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Photo", name: "picture", widget: "image"}
+          - { label: "Phone", name: "phone",  widget: "string"}
+          - { label: "Description", name: "description", widget: "text"}
   - name: "front-page"
     label: "Front Page Picture"
     files:
@@ -24,5 +26,5 @@ collections:
         name: "front-page-picture"
         file: site/settings/Front-Page.json
         fields:
-          - { label: "Picture", name: "picture-link", widget: "image" }
+          - { label: "Picture", name: "Store-Picture", widget: "image" }
           - { label: "Updated", name: "update-date", widget: "datetime"}
