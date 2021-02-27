@@ -9,3 +9,24 @@
     padding-left: 2vh;
     padding-bottom: 2vh;
 }
+.Header-Link{
+    color: white;
+    text-Decoration: none;
+    height: 9vh;
+    margin: 0;
+}
+.Link-Container h4, a{
+    color: white;
+    text-decoration: none;
+    margin-top: 1vh;
+    margin-bottom: 0;
+}
+@media (min-width: 740px){
+    .Link-Container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .Link-Container h4, a{
+        align-content: flex-end;
+    }
+}
