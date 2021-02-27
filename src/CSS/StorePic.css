@@ -1,5 +1,6 @@
 .Store-Picture{
     color: white;
     margin: auto;
-    height: 85vh;
+    height: 80vh;
+    object-fit: cover;
 }
