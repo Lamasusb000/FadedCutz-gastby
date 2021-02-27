@@ -1,32 +1,28 @@
 .Header{
-    background-color: rgb(48, 47, 47);
-    margin-bottom: 2vh;
-}
-.Header div{
-    margin: 0 auto;
-    max-Width: 960;
+    background-color: #302f2f;
     padding-top: 2vh;
     padding-left: 2vh;
     padding-bottom: 2vh;
-}
-.Header-Link{
     color: white;
-    text-Decoration: none;
-    height: 9vh;
-    margin: 0;
+
 }
-.Link-Container h4, a{
-    color: white;
-    text-decoration: none;
-    margin-top: 1vh;
+.No-Bottom-Margin{
     margin-bottom: 0;
 }
+.No-Decor{
+    text-decoration: none;
+}
+.White-Text{
+    color: white;
+}
 @media (min-width: 740px){
-    .Link-Container{
+    .Extra-Links{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
     }
-    .Link-Container h4, a{
-        align-content: flex-end;
+    .Header{
+        display: flex;
+        justify-content: space-between;
     }
 }

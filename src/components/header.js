@@ -8,23 +8,27 @@ const Header = ({ siteTitle }) => (
   <header
     className="Header"
   >
-    <div
-    className="Link-Container">
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          className="Header-Link"
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-      <h4>
+    <h1 className="No-Bottom-Margin Hug-Left">
+      <Link
+        to="/"
+        className="No-Decor White-Text"
+      >
+        {siteTitle}
+      </Link>
+    </h1>
+    <div 
+      className="Extra-Links"
+    >
+      <h3
+        className="No-Bottom-Margin"
+      >
         <a 
           href="https://www.genbook.com/bookings/slot/reservation/31194200"
+          className="No-Decor White-Text"
         >
           Book Now
         </a>
-      </h4>
+      </h3>
     </div>
   </header>
 )
