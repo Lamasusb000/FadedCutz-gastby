@@ -13,7 +13,7 @@ collections:
     files: 
       - label: "Barbers List"
         name: "Barbers-list"
-        file: site/settings/barbers.json"
+        file: site/settings/barbers.json
         fields:
           - { label: "Name", name: "barber-name", widget: "string" }
           - { label: "Photo", name: "barber-photo", widget: "image"}
