@@ -14,7 +14,7 @@ const IndexPage = () => (
       <img 
         className="Store-Picture"
         src={StorePic[0]["Store-Picture"]}
-        alt="Faded Cutz Display Image"
+        alt="Faded Cutz Display"
       />
     </BodyFilled>
     <Barbers/>
