@@ -1,12 +1,22 @@
 import React from "react"
-
+import Barbers from "../components/Barbers"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Barbers from "../components/Barbers"
+import BodyFilled from "../components/Body-Filler"
+import StorePic from "../../site/settings/Front-Page.json"
+import "../CSS/StorePic.css"
+
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    <BodyFilled>
+      <img 
+        className="Store-Picture"
+        src={StorePic[0]["Store-Picture"]}
+        alt="Faded Cutz Display Image"
+      />
+    </BodyFilled>
     <Barbers/>
   </Layout>
 )

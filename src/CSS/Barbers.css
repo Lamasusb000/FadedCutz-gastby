@@ -1,6 +1,43 @@
-.Barbers-Container{
-    background-color: rosybrown;
+.Barber-List{
     display: flex;
-    width: 85%;
+    flex-direction: column;
     margin: auto;
+}
+.Barbers-Container{
+    background-color: rgb(73, 71, 71);
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 3vh;
+    color: rgb(211, 211, 211);
+}
+.Barbers-Container img{
+    margin: 0;
+    width: fit-content;
+    background-color: lightblue;
+}
+.Barber-About{
+    width: fit-content;
+    padding-left: 2vw;
+}
+.Barber-About h1{
+    margin-bottom: 0;
+}
+.Barber-Phone{
+    margin=bottom: 1vh;
+}
+.Barbers-Container img{
+    max-width: 25%;
+    border-style: solid;
+
+}
+
+@media (max-width: 740px){
+    .Barbers-Container{
+        flex-direction: column;
+    }
+    .Barbers-Container img{
+        margin: auto;
+        max-width: 100%;
+    }
 }

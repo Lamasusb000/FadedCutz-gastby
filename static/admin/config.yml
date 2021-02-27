@@ -13,7 +13,16 @@ collections:
     files: 
       - label: "Barbers List"
         name: "Barbers-list"
-        file: site/settings/barbers.json
+        file: site/settings/barbers.json"
         fields:
           - { label: "Name", name: "barber-name", widget: "string" }
           - { label: "Photo", name: "barber-photo", widget: "image"}
+  - name: "front-page"
+    label: "Front Page Picture"
+    files:
+      - label: "Picture"
+        name: "front-page-picture"
+        file: site/settings/Front-Page.json
+        fields:
+          - { label: "Picture", name: "picture-link", widget: "image" }
+          - { label: "Updated", name: "update-date", widget: "datetime"}
