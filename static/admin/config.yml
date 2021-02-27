@@ -15,4 +15,4 @@ collections:
         name: "Barbers-list"
         file: site/settings/barbers.json"
         fields:
-          { label: "Name", name: "barber-name", widget: "string"}
+          - { label: "Name", name: "barber-name", widget: "string"}
