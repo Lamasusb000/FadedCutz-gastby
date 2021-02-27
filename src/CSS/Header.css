@@ -1,0 +1,11 @@
+.Header{
+    background-color: rgb(48, 47, 47);
+    margin-bottom: 1.45rem;
+}
+.Header div{
+    margin: 0 auto;
+    max-Width: 960;
+    padding-top: 2vh;
+    padding-left: 2vh;
+    padding-bottom: 2vh;
+}

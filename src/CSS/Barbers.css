@@ -1,0 +1,6 @@
+.Barbers-Container{
+    background-color: rosybrown;
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
