@@ -20,8 +20,8 @@ collections:
             widget: "list"
             allow_add: true
             fields:
-              - {label: "Barber Name", name: "name", widget: "text"}
-              - {label: "Phone Number {Format as: (111) 222-333}", required: false, name: "phone", widget: "text"}
+              - {label: "Barber Name", name: "name", widget: "string"}
+              - {label: "Phone Number {Format as: (111) 222-333}", required: false, name: "phone", widget: "string"}
               - {label: "Barber's Photo", name: "photo", widget: "image"}
               - {label: "Barber's Description", name: "description", widget: "text"}
   - name: "front-page"
