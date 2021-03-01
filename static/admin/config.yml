@@ -13,7 +13,7 @@ collections:
     files: 
       - label: "Barbers List"
         name: "Barbers-list"
-        file: site/settings/barbers.json
+        file: site/settings/Barbers.json
         fields:
           - label: "Barber"
             name: "barber"
@@ -29,7 +29,7 @@ collections:
     files:
       - label: "Picture"
         name: "front-page-picture"
-        file: site/settings/Front-Page.json
+        file: site/settings/FrontPage.json
         fields:
           - { label: "Picture", name: "Store-Picture", widget: "image" }
           - { label: "Updated", name: "update-date", widget: "datetime"}
