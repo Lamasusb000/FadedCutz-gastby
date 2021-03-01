@@ -3,7 +3,7 @@ import Barbers from "../components/Barbers"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BodyFilled from "../components/Body-Filler"
-import StorePic from "../../site/settings/Front-Page.json"
+import StorePic from "../../site/settings/FrontPage.json"
 import "../CSS/StorePic.css"
 
 

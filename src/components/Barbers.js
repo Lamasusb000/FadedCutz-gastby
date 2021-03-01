@@ -1,6 +1,6 @@
 import React from "react"
 import "../CSS/Barbers.css"
-import Barbers from "../../site/settings/barbers.json"
+import Barbers from "../../site/settings/Barbers.json"
 
 const BarbersDisplay = () => (
     <div
