@@ -31,5 +31,5 @@ collections:
         name: "front-page-picture"
         file: site/settings/FrontPage.json
         fields:
-          - { label: "Picture", name: "Store-Picture", widget: "image" }
-          - { label: "Updated", name: "update-date", widget: "datetime"}
+          - { label: "Landscape Photo", name: "landscape", widget: "image" }
+          - { label: "Portrait Photo", name: "portrait", widget: "image"}
