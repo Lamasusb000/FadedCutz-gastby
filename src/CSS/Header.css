@@ -4,16 +4,19 @@
     padding-left: 2vh;
     padding-bottom: 2vh;
     color: white;
-
+    font-family: inherit;
 }
 .No-Bottom-Margin{
     margin-bottom: 0;
+    font-family: inherit;
 }
 .No-Decor{
     text-decoration: none;
+    font-family: inherit;
 }
 .White-Text{
     color: white;
+    font-family: inherit;
 }
 @media (min-width: 740px){
     .Extra-Links{
@@ -21,6 +24,7 @@
         justify-content: center;
         align-items: center;
         margin-right: 2vw;
+        font-family: inherit;
     }
     .Header{
         display: flex;

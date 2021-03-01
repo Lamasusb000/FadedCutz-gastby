@@ -14,7 +14,11 @@ class BarbersDisplay extends React.Component{
                         <img src={barber.photo} alt={barber.name}></img>
                         <div className="Barber-About">
                             <h1>{barber.name}</h1>
-                            <p className="Barber-Phone">{barber.phone}</p>
+                            <p className="Barber-Phone">
+                                <a href={GetTellLink(barber.phone)}>
+                                    {FormatTellLink(barber.phone)}
+                                </a>
+                            </p>
                             <p>{barber.description}</p>
                         </div>
                     </div>
@@ -22,6 +26,20 @@ class BarbersDisplay extends React.Component{
             </div>
         )
     }
+}
+
+function GetTellLink(PhoneNumber){
+    return `tel:${PhoneNumber}`
+}
+
+function FormatTellLink(phone) {
+    phone = phone.replace(/[^\d]/g, "");
+
+    if (phone.length == 10) {
+        return phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
+    }
+
+    return null;
 }
 
 export default BarbersDisplay
