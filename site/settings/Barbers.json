@@ -11,6 +11,12 @@
       "phone": "(123) 456-7890",
       "photo": "/images/uploads/soccerball.png",
       "description": "ndjkasnd daskdnklsan sdnoksankl asd nlksan dkasnkdl naslkn klnkl ndknsalknd klanskld sa "
-    }
+    },
+    {
+        "name": "Jose 3",
+        "phone": "(123) 456-7890",
+        "photo": "/images/uploads/soccerball.png",
+        "description": "ndjkasnd daskdnklsan sdnoksankl asd nlksan dkasnkdl naslkn klnkl ndknsalknd klanskld sa "
+      }
   ]
 }
