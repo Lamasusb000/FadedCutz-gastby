@@ -2,5 +2,5 @@
     color: white;
     margin: auto;
     height: 80vh;
-    object-fit: cover;
+    object-fit: contain;
 }
