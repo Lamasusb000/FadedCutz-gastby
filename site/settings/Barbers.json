@@ -5,18 +5,6 @@
       "phone": "(123) 456-7890",
       "photo": "/images/uploads/gatsby-astronaut.png",
       "description": "jkdnsajndkjsnajkfnsdfn nfsanfkjsndfj njfn kajsnjdkn dsjan fnsan fkjsajfi nasjnf aosnidfn asjkfnajf as nfjknsa jkfn as"
-    },
-    {
-      "name": "Jose 2",
-      "phone": "(123) 456-7890",
-      "photo": "/images/uploads/soccerball.png",
-      "description": "ndjkasnd daskdnklsan sdnoksankl asd nlksan dkasnkdl naslkn klnkl ndknsalknd klanskld sa "
-    },
-    {
-        "name": "Jose 3",
-        "phone": "(123) 456-7890",
-        "photo": "/images/uploads/soccerball.png",
-        "description": "ndjkasnd daskdnklsan sdnoksankl asd nlksan dkasnkdl naslkn klnkl ndknsalknd klanskld sa "
-      }
+    }
   ]
 }
