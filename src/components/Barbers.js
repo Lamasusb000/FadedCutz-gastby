@@ -3,7 +3,8 @@ import "../CSS/Barbers.css"
 import Barbers from "../../site/settings/Barbers.json"
 
 const BarbersDisplay = () => (
-    <div
+    <div></div>
+    /*<div
         className="Barber-List">
         <div
         className="Barbers-Container"
@@ -44,7 +45,7 @@ const BarbersDisplay = () => (
                 <p>{Barbers[0].description}</p>
             </div>
         </div>
-    </div>
+    </div> */
 )
 
 export default BarbersDisplay

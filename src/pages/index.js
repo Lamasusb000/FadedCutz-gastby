@@ -11,11 +11,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <BodyFilled>
-      <img 
-        className="Store-Picture"
-        src={StorePic[0]["Store-Picture"]}
-        alt="Faded Cutz Display"
-      />
+      
+
+
     </BodyFilled>
     <Barbers/>
   </Layout>
