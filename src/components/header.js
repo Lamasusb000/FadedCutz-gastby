@@ -1,36 +1,37 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import "../CSS/bootstrap.min.css"
 
 import "../CSS/Header.css"
+import ExternalLinks from "./CreateLinks"
 
 const Header = ({ siteTitle }) => (
-  <header
-    className="Header"
-  >
-    <h1 className="No-Bottom-Margin Hug-Left">
-      <Link
-        to="/"
-        className="No-Decor White-Text"
-      >
-        {siteTitle}
-      </Link>
-    </h1>
-    <div 
-      className="Extra-Links"
+  <nav
+  className="navbar navbar-dark">
+    <Link
+    to="/"
+    className="navbar-brand">
+      {siteTitle}
+    </Link>
+    <button
+    className="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#HamburgerMenu"
+    aria-controls="HamburgerMenu"
+    aria-expanded="false"
+    aria-label="Toggle navigation">
+      <span
+      className="navbar-toggler-icon"></span>
+    </button>
+    <div
+    className="collapse navbar-collapse"
+    id="HamburgerMenu"
     >
-      <h3
-        className="No-Bottom-Margin"
-      >
-        <a 
-          href="https://www.genbook.com/bookings/slot/reservation/31194200"
-          className="No-Decor White-Text"
-        >
-          Book Now
-        </a>
-      </h3>
+      <ExternalLinks/>
     </div>
-  </header>
+  </nav>
 )
 
 Header.propTypes = {

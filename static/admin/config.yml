@@ -41,7 +41,7 @@ collections:
         file: site/settings/HeaderLinks.json
         fields:
           - label: "link-set"
-            name: "Link Set"
+            name: "LinkSet"
             widget: "list"
             allow_add: true
             fields:
