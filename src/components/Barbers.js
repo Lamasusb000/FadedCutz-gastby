@@ -2,7 +2,6 @@ import React from "react"
 import "../CSS/Barbers.css"
 import Barbers from "../../site/settings/Barbers.json"
 
-var List = Barbers
 
 class BarbersDisplay extends React.Component{
     render(){
@@ -35,7 +34,7 @@ function GetTellLink(PhoneNumber){
 function FormatTellLink(phone) {
     phone = phone.replace(/[^\d]/g, "");
 
-    if (phone.length == 10) {
+    if (phone.length === 10) {
         return phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
     }
 

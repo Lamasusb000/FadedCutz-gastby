@@ -33,3 +33,18 @@ collections:
         fields:
           - { label: "Landscape Photo", name: "landscape", widget: "image" }
           - { label: "Portrait Photo", name: "portrait", widget: "image"}
+  - name: "header"
+    label: "Header Formatting"
+    files:
+      - label: "Header Links"
+        name: "links"
+        files: site/settings/HeaderLinks.json
+        fields:
+          - label: "link-set"
+            name: "Link Set"
+            widget: "list"
+            allow_add: true
+            fields:
+              - { label: "HTTPS Link", name: "LinkURL", widget: "string"}
+              - { label: "Link Name", name: "LinkName", widget: "string"}
+
