@@ -45,6 +45,6 @@ collections:
             widget: "list"
             allow_add: true
             fields:
-              - { label: "HTTPS Link", name: "LinkURL", widget: "string"}
-              - { label: "Link Name", name: "LinkName", widget: "string"}
+              - { label: "HTTPS Link (The https://www. Link)", name: "LinkURL", widget: "string"}
+              - { label: "Link Label (What Users Will See)", name: "LinkName", widget: "string"}
 

@@ -4,3 +4,20 @@
     height: 80vh;
     object-fit: contain;
 }
+.Portrait{
+    color: white;
+    margin: auto;
+    height: 80vh;
+    object-fit: contain;
+}
+
+@media (min-width: 650px){
+    .Portrait{
+        display: none;
+    }
+}
+@media (max-width: 650px){
+    .Landscape{
+        display: none;
+    }
+}

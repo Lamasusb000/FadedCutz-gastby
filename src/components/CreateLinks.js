@@ -6,7 +6,16 @@ class ExternalLinks extends React.Component{
         return (
             <ul
             className="navbar-nav mr-auto">
-              {Extlink["Link Set"].LinkURL}
+              {Extlink.LinkSet.map((Link, index) => (
+                  <li
+                  className="nav-item">
+                      <a
+                      href={Link.LinkURL}
+                      className="nav-link">
+                          {Link.LinkName}
+                      </a>
+                  </li>
+              ))}
             </ul>
         )
     }

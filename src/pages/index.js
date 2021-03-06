@@ -13,8 +13,13 @@ const IndexPage = () => (
     <BodyFilled>
       <img 
         className="Landscape"
-        src={StorePic["portrait"]}
-        alt="Faded Cutz Display"
+        src={StorePic["landscape"]}
+        alt="Faded Cutz Display Landscape"
+      />
+      <img
+      className="Portrait"
+      src={StorePic["portrait"]}
+      alt="Faded Cutz Display Portrait"
       />
     </BodyFilled>
     <Barbers/>
