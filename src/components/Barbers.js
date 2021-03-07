@@ -3,6 +3,7 @@ import "../CSS/Barbers.css"
 import Barbers from "../../site/settings/Barbers.json"
 
 
+
 class BarbersDisplay extends React.Component{
     render(){
         return (
