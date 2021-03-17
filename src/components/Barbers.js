@@ -11,7 +11,11 @@ class BarbersDisplay extends React.Component{
             className="Barber-List">
                 {Barbers.barber.map((barber, index) => (
                     <div className="Barber-Container">
-                        <img src={barber.photo} alt={barber.name}></img>
+                        <div
+                        className="Barber-Image"
+                        style={{
+                            backgroundImage: `url(${barber.photo})`
+                        }}></div>
                         <div className="Barber-About">
                             <h1>{barber.name}</h1>
                             <p className="Barber-Phone">
