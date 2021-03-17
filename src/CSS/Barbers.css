@@ -9,7 +9,7 @@
     display: flex;
     width: 95%;
     margin: auto;
-    margin-bottom: 3vh;
+    margin-bottom: 3%;
     color: rgb(211, 211, 211);
     font-family: inherit;
 }
@@ -35,7 +35,7 @@
     font-family: inherit;
 }
 .Barber-Phone{
-    margin-bottom: 2vh;
+    margin-bottom: 2%;
     font-family: inherit;
 }
 .Barber-Phone a{
@@ -51,7 +51,7 @@
     .Barber-Image{
         margin: auto;
         max-width: 100%;
-        height: 45vh;
-        width: 45vw;
+        height: 45%;
+        width: 45%;
     }
 }
