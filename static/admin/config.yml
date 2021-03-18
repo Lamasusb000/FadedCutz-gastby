@@ -10,7 +10,8 @@ show_preview_links: false
 collections:
   - name: "barbers"
     label: "Barbers"
-    preview: false
+    editor:
+      preview: false
     files: 
       - label: "Barbers List"
         name: "Barbers-list"
@@ -27,7 +28,8 @@ collections:
               - {label: "Barber's Description", name: "description", widget: "text"}
   - name: "front-page"
     label: "Front Page Picture"
-    preview: false
+    editor:
+      preview: false
     files:
       - label: "Picture"
         name: "front-page-picture"
@@ -37,7 +39,8 @@ collections:
           - { label: "Portrait Photo", name: "portrait", widget: "image"}
   - name: "header"
     label: "Header Formatting"
-    preview: false
+    editor: 
+      preview: false
     files:
       - label: "Header Links"
         name: "links"
