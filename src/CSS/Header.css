@@ -1,3 +1,6 @@
 .navbar{
     background-color: rgb(15, 15, 15);
 }
+.navbar-brand{
+    padding-left: 2vw;
+}

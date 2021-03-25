@@ -9,11 +9,6 @@ import ExternalLinks from "./CreateLinks"
 const Header = ({ siteTitle }) => (
   <nav
   className="navbar navbar-dark">
-    <Link
-    to="/"
-    className="navbar-brand">
-      {siteTitle}
-    </Link>
     <button
     className="navbar-toggler"
     type="button"
@@ -25,6 +20,11 @@ const Header = ({ siteTitle }) => (
       <span
       className="navbar-toggler-icon"></span>
     </button>
+    <Link
+    to="/"
+    className="navbar-brand mr-auto">
+      {siteTitle}
+    </Link>
     <div
     className="collapse navbar-collapse"
     id="HamburgerMenu"

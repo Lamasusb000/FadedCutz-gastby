@@ -8,11 +8,28 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 show_preview_links: false
 
 collections:
-  - name: "barbers"
-    label: "Barbers"
+  - name: "SiteSettings"
+    label: "Site Settings"
     editor:
       preview: false
-    files: 
+    files:
+      - label: "Picture"
+        name: "front-page-picture"
+        file: site/settings/FrontPage.json
+        fields:
+          - { label: "Landscape Photo", name: "landscape", widget: "image" }
+          - { label: "Portrait Photo", name: "portrait", widget: "image"}
+      - label: "Header Links"
+        name: "links"
+        file: site/settings/HeaderLinks.json
+        fields:
+          - label: "link-set"
+            name: "LinkSet"
+            widget: "list"
+            allow_add: true
+            fields:
+              - { label: "HTTPS Link (The https://www. Link)", name: "LinkURL", widget: "string"}
+              - { label: "Link Label (What Users Will See)", name: "LinkName", widget: "string"}
       - label: "Barbers List"
         name: "Barbers-list"
         file: site/settings/Barbers.json
@@ -26,31 +43,3 @@ collections:
               - {label: "Phone Number {Enter without spaces. Ex 1234567890}", required: false, name: "phone", widget: "string"}
               - {label: "Barber's Photo", name: "photo", widget: "image"}
               - {label: "Barber's Description", name: "description", widget: "text"}
-  - name: "front-page"
-    label: "Front Page Picture"
-    editor:
-      preview: false
-    files:
-      - label: "Picture"
-        name: "front-page-picture"
-        file: site/settings/FrontPage.json
-        fields:
-          - { label: "Landscape Photo", name: "landscape", widget: "image" }
-          - { label: "Portrait Photo", name: "portrait", widget: "image"}
-  - name: "header"
-    label: "Header Formatting"
-    editor: 
-      preview: false
-    files:
-      - label: "Header Links"
-        name: "links"
-        file: site/settings/HeaderLinks.json
-        fields:
-          - label: "link-set"
-            name: "LinkSet"
-            widget: "list"
-            allow_add: true
-            fields:
-              - { label: "HTTPS Link (The https://www. Link)", name: "LinkURL", widget: "string"}
-              - { label: "Link Label (What Users Will See)", name: "LinkName", widget: "string"}
-
