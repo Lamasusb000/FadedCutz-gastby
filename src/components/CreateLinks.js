@@ -6,16 +6,24 @@ class ExternalLinks extends React.Component{
         return (
             <ul
             className="navbar-nav mr-auto">
-              {Extlink.LinkSet.map((Link, index) => (
-                  <li
-                  className="nav-item">
-                      <a
-                      href={Link.LinkURL}
-                      className="nav-link">
-                          {Link.LinkName}
-                      </a>
-                  </li>
-              ))}
+                <li
+                className="nav-item">
+                    <a
+                    href={Extlink["BookingSite"]}
+                    className="nav-link">
+                        Book Now
+                    </a>
+                </li>
+                {Extlink.LinkSet.map((Link, index) => (
+                    <li
+                    className="nav-item">
+                        <a
+                        href={Link.LinkURL}
+                        className="nav-link">
+                            {Link.LinkName}
+                        </a>
+                    </li>
+                ))}
             </ul>
         )
     }

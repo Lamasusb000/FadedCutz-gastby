@@ -1,7 +1,7 @@
 .Landscape{
     color: white;
     margin: auto;
-    height: 80vh;
+    height: fit-content;
     object-fit: contain;
 }
 .Portrait{

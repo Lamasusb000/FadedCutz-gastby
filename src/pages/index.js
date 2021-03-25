@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import BodyFilled from "../components/Body-Filler"
 import StorePic from "../../site/settings/FrontPage.json"
 import "../CSS/StorePic.css"
+import HeaderLinks from "../../site/settings/HeaderLinks.json"
 
 
 const IndexPage = () => (
@@ -21,6 +22,19 @@ const IndexPage = () => (
       src={StorePic["portrait"]}
       alt="Faded Cutz Display Portrait"
       />
+      <h1
+      style={{
+        color: "white",
+        textAlign: "center"
+      }}>
+        <a 
+        href= {HeaderLinks["BookingSite"]}
+        style={{
+          color: "inherit"
+        }}>
+          Book Now
+        </a>
+      </h1>
     </BodyFilled>
     <Barbers/>
   </Layout>

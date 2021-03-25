@@ -1,4 +1,5 @@
 {
+  "BookingSite": "https://www.genbook.com/bookings/slot/reservation/31194200?bookingSourceId=1",
   "LinkSet": [
     {
       "LinkURL": "https://www.instagram.com/faded_cutz_barbershop/",
@@ -7,10 +8,6 @@
     {
       "LinkName": "Facebook",
       "LinkURL": "https://www.facebook.com/fadedcutz1209"
-    },
-    {
-      "LinkURL": "https://www.genbook.com/bookings/slot/reservation/31194200?bookingSourceId=1",
-      "LinkName": "Book Now"
     }
   ]
 }

@@ -23,6 +23,7 @@ collections:
         name: "links"
         file: site/settings/HeaderLinks.json
         fields:
+          - {label: "Booking Website Link", name: "BookingSite", widget: "string"}
           - label: "link-set"
             name: "LinkSet"
             widget: "list"
