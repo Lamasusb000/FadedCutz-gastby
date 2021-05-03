@@ -2,21 +2,10 @@
   "barber": [
     {
       "name": "Jose",
-      "phone": "1234567890",
-      "photo": "/images/uploads/resizer_16145777500700.png",
-      "description": "jkdnsajndkjsnajkfnsdfn nfsanfkjsndfj njfn kajsnjdkn dsjan fnsan fkjsajfi nasjnf aosnidfn asjkfnajf as nfjknsa jkfn as"
-    },
-    {
-      "name": "Jose",
-      "phone": "1234567890",
-      "photo": "/images/uploads/resizer_16145777500700.png",
-      "description": "jkdnsajndkjsnajkfnsdfn nfsanfkjsndfj njfn kajsnjdkn dsjan fnsan fkjsajfi nasjnf aosnidfn asjkfnajf as nfjknsa jkfn as"
-    },
-    {
-      "name": "Joe",
-      "phone": "1234567890",
-      "photo": "/images/uploads/resizer_16145777500700.png",
-      "description": "About this barber"
+      "phone": "352-553-5151",
+      "description": "Ill make you look sexy ",
+      "genbook": ".",
+      "photo": "/images/uploads/20210417_182329.jpg"
     }
   ]
 }
