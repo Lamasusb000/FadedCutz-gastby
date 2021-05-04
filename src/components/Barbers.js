@@ -33,10 +33,17 @@ class BarbersDisplay extends React.Component{
 }
 
 function GetTellLink(PhoneNumber){
-    return `tel:${PhoneNumber}`
+    if (PhoneNumber == undefined){
+        return
+    }else{
+        return `tel:${PhoneNumber}`
+    }
 }
 
 function FormatTellLink(phone) {
+    if (phone == undefined){
+        return
+    }
     phone = phone.replace(/[^\d]/g, "");
 
     if (phone.length === 10) {
