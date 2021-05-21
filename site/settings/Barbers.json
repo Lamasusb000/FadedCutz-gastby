@@ -10,7 +10,14 @@
       "name": "Kayllyn ",
       "photo": "/images/uploads/screenshot_20210502-233641_samsung-internet.jpg",
       "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
-      "description": "Fuck love"
+      "description": "Book online"
+    },
+    {
+      "name": "Jose",
+      "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
+      "photo": "/images/uploads/20210417_182329.jpg",
+      "description": "Ill make you look sexy",
+      "phone": "3525535151"
     },
     {
       "name": "Jase Cutz",
@@ -23,13 +30,6 @@
       "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
       "photo": "/images/uploads/resizer_16145777500700.png",
       "description": "Que lo que"
-    },
-    {
-      "name": "Jose",
-      "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
-      "photo": "/images/uploads/20210417_182329.jpg",
-      "description": "Ill make you look sexy",
-      "phone": "3525535151"
     }
   ]
 }
