@@ -30,6 +30,12 @@
       "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
       "photo": "/images/uploads/resizer_16145777500700.png",
       "description": "Book online"
+    },
+    {
+      "name": "Joshua Ortiz",
+      "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
+      "description": "  ",
+      "photo": "/images/uploads/polish_20210506_103617209.jpg"
     }
   ]
 }
