@@ -14,6 +14,12 @@
       "description": "Book online"
     },
     {
+      "name": "Joshua Ortiz",
+      "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
+      "description": "  ",
+      "photo": "/images/uploads/polish_20210506_103617209.jpg"
+    },
+    {
       "name": "Jase Cutz",
       "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
       "photo": "/images/uploads/screenshot_20210502-235325_gallery.jpg",
@@ -30,12 +36,6 @@
       "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
       "photo": "/images/uploads/resizer_16145777500700.png",
       "description": "Book online"
-    },
-    {
-      "name": "Joshua Ortiz",
-      "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
-      "description": "  ",
-      "photo": "/images/uploads/polish_20210506_103617209.jpg"
     }
   ]
 }
