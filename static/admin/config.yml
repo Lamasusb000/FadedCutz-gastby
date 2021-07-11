@@ -42,6 +42,6 @@ collections:
             fields:
               - {label: "Barber Name", name: "name", widget: "string"}
               - {label: "Phone Number {Enter without spaces. Ex 1234567890}", required: false, name: "phone", widget: "string"}
-              - {label: "Barber's Genbook", name: "genbook", widget: "string"}
+              - {label: "Barber's Booking Software URL", name: "genbook", widget: "string"}
               - {label: "Barber's Photo", name: "photo", widget: "image"}
               - {label: "Barber's Description", name: "description", widget: "text"}
