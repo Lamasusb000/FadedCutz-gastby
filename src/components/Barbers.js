@@ -23,6 +23,11 @@ class BarbersDisplay extends React.Component{
                                     {FormatTellLink(barber.phone)}
                                 </a>
                             </p>
+							<p>
+								<a href={barber.genbook}>
+									Book Online
+								</a>
+							</p>
                             <p>{barber.description}</p>
                         </div>
                     </div>
