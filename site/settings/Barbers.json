@@ -4,38 +4,38 @@
       "name": "Jose",
       "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
       "photo": "/images/uploads/polish_20210506_103617209.jpg",
-      "description": "",
+      "description": "Book online",
       "phone": "3525535151"
     },
     {
       "name": "Natalie ",
       "photo": "/images/uploads/screenshot_20210502-233641_samsung-internet.jpg",
       "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
-      "description": ""
+      "description": "Book online"
     },
     {
       "name": "Joshua Ortiz",
       "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
-      "description": "",
+      "description": "Book online ",
       "photo": "/images/uploads/polish_20210506_103617209.jpg"
     },
     {
       "name": "Jase Cutz",
       "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
       "photo": "/images/uploads/screenshot_20210502-235325_gallery.jpg",
-      "description": ""
+      "description": "Book online"
     },
     {
       "name": "Kayllyn ",
       "photo": "/images/uploads/screenshot_20210502-233641_samsung-internet.jpg",
       "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
-      "description": ""
+      "description": "Book online"
     },
     {
-      "name": "Ezequiel ",
+      "name": "Zeke",
       "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
       "photo": "/images/uploads/resizer_16145777500700.png",
-      "description": ""
+      "description": "Book online"
     }
   ]
 }
