@@ -1,6 +1,12 @@
 {
   "barber": [
     {
+      "name": "Kayllyn ",
+      "photo": "/images/uploads/screenshot_20210502-233641_samsung-internet.jpg",
+      "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
+      "description": "Book online"
+    },
+    {
       "name": "Jose",
       "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
       "photo": "/images/uploads/polish_20210506_103617209.jpg",
@@ -26,15 +32,15 @@
       "description": "Book online"
     },
     {
-      "name": "Kayllyn ",
-      "photo": "/images/uploads/screenshot_20210502-233641_samsung-internet.jpg",
-      "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
-      "description": "Book online"
-    },
-    {
       "name": "Zeke",
       "genbook": "https://faded-cutz.genbook.com/?bookingSourceId=1",
       "photo": "/images/uploads/resizer_16145777500700.png",
+      "description": "Book online"
+    },
+    {
+      "name": "Alejandro ",
+      "genbook": "@moor25:Alina lopez",
+      "photo": "/images/uploads/img_3304-1-.jpg",
       "description": "Book online"
     }
   ]
