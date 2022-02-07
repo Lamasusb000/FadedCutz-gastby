@@ -1,12 +1,6 @@
 {
   "barber": [
     {
-      "name": "Kayllyn ",
-      "photo": "/images/uploads/screenshot_20210502-233641_samsung-internet.jpg",
-      "genbook": "http://booksy.info/FadedCutzBarbershopSumner",
-      "description": "Book online"
-    },
-    {
       "name": "Jose",
       "genbook": "http://booksy.info/FadedCutzBarbershopSumner",
       "photo": "/images/uploads/polish_20210506_103617209.jpg",
@@ -29,6 +23,12 @@
       "name": "Jase Cutz",
       "genbook": "http://booksy.info/FadedCutzBarbershopSumner",
       "photo": "/images/uploads/screenshot_20210502-235325_gallery.jpg",
+      "description": "Book online"
+    },
+    {
+      "name": "Kayllyn ",
+      "photo": "/images/uploads/screenshot_20210502-233641_samsung-internet.jpg",
+      "genbook": "http://booksy.info/FadedCutzBarbershopSumner",
       "description": "Book online"
     },
     {
