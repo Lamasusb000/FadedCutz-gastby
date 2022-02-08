@@ -8,6 +8,10 @@
     {
       "LinkName": "Facebook",
       "LinkURL": "https://www.facebook.com/fadedcutz1209"
+    },
+    {
+      "LinkURL": "<script type=\"text/javascript\" src=\"https://booksy.com/widget/code.js?id=617171&country=us&lang=en\"></script>",
+      "LinkName": "Book now"
     }
   ]
 }
